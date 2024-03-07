@@ -58,7 +58,7 @@ body::-webkit-scrollbar {
     inset: 0 !important;
     width: 100%;
     height: 100%;
-    background-color: #62b6cb;
+    background-color: #6a4c93;
     z-index: 1056 !important;
 }
 
@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
     width: 0.25rem;
     height: 0.625rem;
     border-radius: 25%;
-    background-color: #ffffff;
+    background-color: #6a4c93;
     animation-name: scroll;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -127,7 +127,7 @@ body::-webkit-scrollbar {
 }
 
 .dark-section {
-    background-color: #283618 !important;
+    background-color: #6a4c93 !important;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
 }
