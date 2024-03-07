@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 
 .font-esthetic {
     font-family: 'Sacramento', cursive !important;
-    color: #ffffff !important;
+    color: #ffbd00 !important;
 }
 
 .font-arabic {
@@ -37,6 +37,13 @@ body::-webkit-scrollbar {
     margin: 0 auto;
     height: auto;
     width: 100%;
+}
+.fh5co-cover {
+  height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
 }
 
 .btn-music {
@@ -120,7 +127,7 @@ body::-webkit-scrollbar {
 }
 
 .dark-section {
-    background-color: #a3cef1 !important;
+    background-color: #283618 !important;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
 }
