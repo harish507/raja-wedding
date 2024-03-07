@@ -689,7 +689,7 @@ const comment = (() => {
                     <small class="text-dark m-0 p-0" style="font-size: 0.75rem;">${data.created_at}</small>
                 </div>
                 <hr class="text-dark my-1">
-                <p class="text-dark mt-0 mb-1 mx-0 p-0" style="white-space: pre-line">${convertMarkdownToHTML(util.escapeHtml(data.komentar))}</p>
+                <p class="text-dark mt-0 mb-1 mx-0 p-0" style="black-space: pre-line">${convertMarkdownToHTML(util.escapeHtml(data.komentar))}</p>
                 ${innerComment(data)}
             </div>`;
         });
