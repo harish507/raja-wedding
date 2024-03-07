@@ -16,12 +16,12 @@ body::-webkit-scrollbar {
 
 .font-esthetic {
     font-family: 'Sacramento', cursive !important;
-    color: #ffbd00 !important;
+    color: #F1FAEE !important;
 }
 
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
-    color: #ffffff !important;
+    color: #F1FAEE !important;
 }
 
 .img-crop {
@@ -69,7 +69,7 @@ body::-webkit-scrollbar {
 .mouse-animation {
     padding: 0.25rem 0.625rem;
     height: 2rem;
-    border: 0.1rem solid #ffffff;
+    border: 0.1rem solid #414833;
     border-radius: 1.4rem;
     opacity: 0.75;
     box-sizing: content-box;
