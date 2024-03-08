@@ -137,3 +137,33 @@ body::-webkit-scrollbar {
     margin-top: -0.5rem;
     padding-bottom: 5rem;
 }
+.container {
+    text-align: center; /* Center align its children */
+}
+
+.video-container {
+    border-radius: 20px; /* Add curved borders */
+    overflow: hidden; /* Hide overflow content if any */
+    display: inline-block; /* Maintain inline-block behavior */
+    margin-top: 20px; /* Add spacing between h1 and iframe */
+}
+
+.video-container iframe {
+    width: 420px;
+    height: 345px;
+    border: none; /* Remove default iframe border */
+}
+.image-container {
+    width: 400px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    border: 2px solid #ddd; /* Border style */
+    border-radius: 10px; /* Rounded border */
+    overflow: hidden; /* Hide overflow */
+    margin: 0 auto; /* Center align horizontally */
+}
+
+.image-container img {
+    width: 100%; /* Make image fill its container */
+    height: 100%; /* Make image fill its container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
