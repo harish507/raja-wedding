@@ -74,7 +74,14 @@ body::-webkit-scrollbar {
     opacity: 0.75;
     box-sizing: content-box;
 }
-
+ video-container{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} 
 @keyframes scroll {
     0% {
         opacity: 0;
@@ -127,7 +134,7 @@ body::-webkit-scrollbar {
 }
 
 .dark-section {
-    background-color: #003049 !important;
+    background-color: #003049!important;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
 }
@@ -158,17 +165,3 @@ body::-webkit-scrollbar {
     border: none; /* Remove default iframe border */
 }
 
-.image-container {
-    width: 400px; /* Adjust width as needed */
-    height: 300px; /* Adjust height as needed */
-    border: 2px solid #ddd; /* Border style */
-    border-radius: 10px; /* Rounded border */
-    overflow: hidden; /* Hide overflow */
-    margin: 0 auto; /* Center align horizontally */
-}
-
-.image-container img {
-    width: 100%; /* Make image fill its container */
-    height: 100%; /* Make image fill its container */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-}
